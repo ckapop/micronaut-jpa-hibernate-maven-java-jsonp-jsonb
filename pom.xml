@@ -71,13 +71,11 @@
 		<dependency>
 			<groupId>io.micronaut.serde</groupId>
 			<artifactId>micronaut-serde-jsonp</artifactId>
-			<version>1.5.2</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>jakarta.json.bind</groupId>
 			<artifactId>jakarta.json.bind-api</artifactId>
-			<version>2.0.0</version>
 			<scope>compile</scope>
 		</dependency>		
 		<dependency>
@@ -168,7 +166,7 @@
 						<path>
 							<groupId>io.micronaut.serde</groupId>
 							<artifactId>micronaut-serde-processor</artifactId>
-							<version>${micronaut.serialization.version}</version>
+                            <version>${micronaut.serialization.version}</version>
 						</path>
 					</annotationProcessorPaths>
 					<compilerArgs>
